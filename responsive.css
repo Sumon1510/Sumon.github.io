@@ -1,0 +1,53 @@
+    @media only screen and (max-width: 768px) {
+        .left-sidebar {
+            width: 40%;
+        }
+        #left-col {
+            flex-basis: 80% !important;
+        }
+        #right-col h1 {
+            margin-top: 0px;
+        }
+        .offset-5 {
+            margin-left: 15%;
+        }
+        .bannerTxt {
+            margin-top: 50px;
+        }
+        .bannerTxt span {
+            color: #000;
+        }
+        .location {
+            width: 90%;
+        }
+    }
+    
+    @media only screen and (max-width:425px) {
+        .bannerTxt {
+            font-size: 50px;
+            margin-top: 50px;
+        }
+        .bannerTxt span {
+            font-size: 100px;
+        }
+        .contact-col {
+            padding: 50px 60px;
+        }
+        .contact-col div .fa {
+            margin: 5px;
+            margin-right: 15px;
+        }
+        .left-sidebar {
+            width: 50%;
+        }
+    }
+    
+    @media only screen and (max-width:320px) {
+        .bannerTxt {
+            font-size: 40px;
+            margin-top: 40px;
+        }
+        .bannerTxt span {
+            font-size: 80px;
+        }
+    }
